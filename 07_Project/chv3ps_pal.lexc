@@ -1,0 +1,60 @@
+Multichar_Symbols 
+
+%>
+
+LEXICON Root
+
+ɐ:ɐ Root ;
+ə:ə Root ;
+e:e Root ;
+j:j Root ;
+o:o Root ;
+ɘ:ɘ Root ;
+i:i Root ;
+u:u Root ;
+y:y Root ;
+ɯ:ɯ Root ;
+a:a Root ;
+b:b Root ;
+ʋ:ʋ Root ;
+ɡ:ɡ Root ;
+d:d Root ;
+ʒ:ʒ Root ;
+z:z Root ;
+k:k Root ;
+l:l Root ;
+m:m Root ;
+n:n Root ;
+p:p Root ;
+ɾ:ɾ Root ;
+s:s Root ;
+ɕ:ɕ Root ;
+t:t Root ;
+f:f Root ;
+χ:χ Root ;
+ʃ:ʃ Root ;
+ː:ː Root ;
+.:. Root ;
+ʲ:ʲ Root ;
+# ;
+
+ɘɕ.le:ɘɕ.le 3PersPresLowHarmony ;
+
+ʋɘ.le.ɾe:ʋɘ.le.ɾe 3PersPresLowHarmony ;
+ʋɘ.ɾe:ʋɘ.ɾe 3PersPresLowHarmony ;
+ʋɘ.ɾe.ne:ʋɘ.ɾe.ne 3PersPresLowHarmony ;
+ʋɘ.de:ʋɘ.de 3PersPresLowHarmony ;
+ʋi.le:ʋi.le 3PersPresLowHarmony ;
+ɘ.me:ɘ.me 3PersPresLowHarmony ;
+ɘ.mɘt.le.ne:ɘ.mɘt.le.ne 3PersPresLowHarmony ;
+ɘ.ne:ɘ.ne 3PersPresLowHarmony ;
+ɘ.ne.ne:ɘ.ne.ne 3PersPresLowHarmony ;
+ɘ.nen.de.ɾe:ɘ.nen.de.ɾe 3PersPresLowHarmony ;
+ɘɕ.le:ɘɕ.le 3PersPresLowHarmony ;
+i.le:i.le 3PersPresLowHarmony ;
+il.de:il.de 3PersPresLowHarmony ;
+
+
+LEXICON 3PersPresLowHarmony
+
+t:tʲ Root ;

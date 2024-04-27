@@ -10,8 +10,12 @@ for lines in line:
     except:
         continue
 
-print(option_arr)
+# print(option_arr)
 
+if option_arr[-1][-1] == '?':
+    print('\nThis string cannot be processed:')
+    print(option_arr[-1])
+    exit()
 
 chuv_str = '.' + option_arr[-1]
 

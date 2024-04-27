@@ -24,7 +24,11 @@ Example:
 ```bash
 python3 l545_final.py ӗҫлет
 
-# returns the IPA transliteration of the string with syllable boundaries, primary stress, and palatalization of the final [t] as the third-person singular present form of a front-vowel harmony verb
+###
+returns the IPA transliteration of the string with syllable boundaries, primary stress, and palatalization of the 
+final [t] as the third-person singular present form of a front-vowel harmony verb
+###
+
 ɘɕ.ˈletʲ
 ```
 

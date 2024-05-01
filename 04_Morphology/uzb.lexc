@@ -1,0 +1,75 @@
+Multichar_Symbols
+
+%>                   ! Morpheme boundary
+%<nom%>              ! nominative
+%<gen%>              ! genitive
+%<dat%>              ! dative
+%<def_acc%>          ! definite accusative
+%<loc%>              ! locative
+%<abl%>              ! ablative
+
+LEXICON Root
+
+Nouns ;
+
+LEXICON N
+
+%<n%>: CASE ;
+%<n%>: PLURAL ;
+%<n%>: POSSESSIVE ;
+%<n%>: DERIVATION ;
+
+LEXICON PLURAL
+
+%<pl%>:%>lar CASE ;
+%<pl%>:%>lar POSSESSIVE ;
+
+LEXICON CASE
+
+%<nom%>: # ; ! ""
+%<gen%>:%>ning #; ! "of"
+%<dat%>:%>ga # ; ! "to"
+%<def_acc%>:%>ni #; ! "the (obj)"
+%<loc%>:%>da # ; ! "at"
+%<abl%>:%>dan # ; ! "from"
+# ;
+
+LEXICON POSSESSIVE
+
+%<poss_1s%>:%>im CASE ; ! "my"
+%<poss_1p%>:%>imiz CASE ; ! "our"
+%<poss_2s%>:%>ing CASE ; ! "your"
+%<poss_2p%>:%>ingiz CASE ; ! "your (pl.)"
+%<poss_3s%>:%>i CASE ; ! "his/her/its"
+%<poss_3p%>:%>i CASE ; ! "their"
+
+LEXICON DERIVATION
+
+%<dim%>:%>loq CASE; ! "little"
+%<dim%>:%>loq PLURAL; ! "little"
+%<prof%>:%>chi CASE; ! "profession, -ist"
+%<prof%>:%>chi PLURAL; ! "profession, -ist"
+
+
+LEXICON Nouns
+
+konfet:konfet N ; ! "sweets, candy"
+gilam:gilam N ; ! "carpet, rug"
+lazzat:lazzat N ; ! "pleasure"
+kino:kino N ; ! "cinema, film"
+ishq:ishq N ; ! "love"
+odam:odam N ; ! "person, man"
+qiz:qiz N ; ! "girl, daughter"
+pul:pul N ; ! "money"
+qalam:qalam N ; ! "pen"
+raqs:raqs N ; ! "dance"
+safar:safar N ; ! "travel"
+savdo:savdo N ; ! "trade, commerce"
+tarjima:tarjima N ; ! "translation"
+tush:tush N ; ! "dream"
+un:un N ; ! "flour"
+va'z:va'z N ; ! "sermon"
+xat:xat N ; ! "letter, written message"
+yashik:yashik N ; ! "box, crate"
+tog':tog' N ; ! "mountain"
+sham:sham N ; ! "candle"

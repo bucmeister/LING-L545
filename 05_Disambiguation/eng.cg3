@@ -1,0 +1,36 @@
+DELIMITERS = "." ;
+
+LIST Prop = np ;
+LIST Adj = adj ;
+LIST Unlike = "unlike" ;
+LIST Adv = adv;
+LIST Noun = n;
+LIST In = "in";
+LIST Be = "be";
+LIST Prep = pr ;
+LIST Pres = pres ;
+LIST Pp = (vblex pp) ;
+LIST Contradict = "contradict" ;
+LIST Who = "who" ;
+LIST Verb = (vblex) or (vbser) ;
+LIST Fp = (p1) ;
+LIST Some = "some" ;
+
+SECTION
+
+# Remove the adjective reading of "unlike" if it is 
+# followed by a proper noun
+REMOVE Adj IF (0 Unlike) (1 Prop) ; 
+  # ... unlike Livy ...
+REMOVE Adv IF (1 Noun OR Prop) ;
+  # by/in, works for both texts
+SELECT (vblex pp) IF (0 Contradict) (-2 Be);
+  # ... be apparently contradicted ...
+SELECT (rel) IF (0 Who) (1 Verb)
+  # ... *who* was ...
+REMOVE (p1) IF (0 Verb) (NOT -1 (p1))
+  # ... who *was* ...
+SELECT (pprs) IF (0 Verb) (-1 Verb)
+  # ... was writing ...
+SELECT (adj) IF (0 Some) (1 (num))
+  # ... some 200 years ...

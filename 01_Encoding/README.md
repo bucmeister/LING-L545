@@ -8,7 +8,7 @@ The program for this module inputs a Chuvash corpus and outputs a cleaner versio
 
 ## Usage
 
-Schema:
+Input:
 
 ```bash
 # inputs wiki.txt, outputs encoded_text.txt

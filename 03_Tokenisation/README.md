@@ -68,7 +68,7 @@ If you want to rerun the report, run the following command:
 python3 evaluate.py tokenised.test.txt output.test.txt > evaluate.performance.txt
 ```
 
-As my approach matched words from left to right instead of right to left like MaxMatch, lots of the right parts of words and non-Thai words separated into blocks of isolated single characters, although many accurate terms were matched. Here is an example block of lines comparing the tokenized.test.txt with their corresponding lines in output.test.txt:
+As my approach matched words from left to right instead of right to left like MaxMatch, lots of the right parts of words and entire non-Thai words separated into blocks of isolated single characters, although many accurate terms were matched. Here is an example block of lines comparing the tokenized.test.txt with their corresponding lines in output.test.txt:
 
 ```bash
 # tokenized.test.txt

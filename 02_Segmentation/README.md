@@ -8,7 +8,7 @@ The program for this module inputs a Chuvash corpus and outputs a segmented vers
 
 ## Usage
 
-Schema:
+Input:
 
 ```bash
 # inputs wiki.txt, outputs segd_wiki.txt
